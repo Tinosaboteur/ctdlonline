@@ -1,9 +1,9 @@
 #include<stdio.h>
 bool kiemtraam(int a[],int n){
 	if (n == 0)
-     return 0;
-	if(a[n-1]<0){
-        return true;
+     return true;
+	if(a[n-1]>0){
+        return false;
         return 0;
     }
     return kiemtraam(a,n-1);

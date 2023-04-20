@@ -4,7 +4,7 @@ int kiemtralonnhat(int a[],int n){
      return 0;
 	int max;
     if(a[n-1]>kiemtralonnhat(a,n-1))
-       return max = a[n-1];
+         return max = a[n-1];
 
     return kiemtralonnhat(a,n-1);
 
